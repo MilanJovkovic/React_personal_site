@@ -188,9 +188,7 @@ class About extends Component {
                 <div>
                   <span>
                     <div class="text-box skill-details">
-                      <h3 class="heading-tertiary u-margin-bottom-small">
-                        C/C++, C#
-                      </h3>
+                      <h3 class="heading-tertiary u-margin-bottom-small"></h3>
                       <p class="paragraph">
                         Desktop App, Multithreading, Web-Socket programming, BDD
                         (Behave) &amp; unittest
