@@ -245,30 +245,35 @@ class Experience extends Component {
                 <div className="timeline__breakpoint-group">
                   <div
                     className="timeline__breakpoint timeline__breakpoint "
-                    style={{ left: "6.54947%", width: "17.0856%" }}
+                    style={{ left: "6.54947%", width: "52.0856%" }}
                   >
                     <h3 className="timeline__bp-header timeline__bp-header">
                       <span className="timeline__bp-header--main">
-                        Jr. Web Developer
+                        Sr. Software Engineer
                       </span>
                       <span className="timeline__bp-header--sub">
-                        Ontario Public Service
+                        Chepri / Full-time
                       </span>
                     </h3>
                   </div>
                   <div
-                    className="timeline__breakpoint timeline__breakpoint timeline__breakpoint--selected"
-                    style={{ left: "23.635%", width: "76.365%" }}
+                    //                  className="timeline__breakpoint timeline__breakpoint timeline__breakpoint--selected"
+                    className="timeline__breakpoint timeline__breakpoint"
+                    style={{ left: "58.635%", width: "36.365%" }}
                   >
                     <h3 class="timeline__bp-header timeline__bp-header">
                       <span className="timeline__bp-header--main">
-                        Software Developer
+                        Sr. Web Engineer
                       </span>
                       <span className="timeline__bp-header--sub">
-                        Seneca College
+                        SmartSites / Contract
                       </span>
                     </h3>
                   </div>
+                  <div
+                    className="timeline__breakpoint timeline__breakpoint"
+                    style={{ left: "95%", width: "5%" }}
+                  ></div>
                 </div>
                 <div className="timeline__ribbon"></div>
                 <div className="timeline__dateline">
@@ -295,31 +300,35 @@ class Experience extends Component {
               <div className="experience__description u-fade-in-element">
                 <div className="text-box experience__role">
                   <h3 className="heading-tertiary u-margin-bottom-small">
-                    Software Developer @Seneca College
+                    FULL-TIME FREELANCER
                     <span className="heading-tertiary--sub">
-                      Apr 2017 — Present
+                      Feb 2020 — Present
                     </span>
                   </h3>
                   <p className="paragraph">
-                    As a Software Developer at OSTEP team, I have successfully
-                    completed 3 projects using diverse stack of technologies
-                    ranging from C++ 3D libraries to modern web-frameworks
+                    Looking for a long-term and short-term job opportunites. I
+                    prefer remote jobs because I left my previous job to change
+                    my life. Based on the rich experience during 8 years, I will
+                    deliver your promising desktop/web app and website.
                   </p>
                   <ul className="list">
                     <li>
-                      implemented photogrammetry pipeline using open-source
-                      computer vision software (Twinster)
+                      Received a Bachelor's degree in computer science. I have
+                      been working in IT area for about 8 years so far. My most
+                      familiar areas are Fintech and desktop app development.
                     </li>
                     <li>
-                      delivered MERN-stack based software deployment system (Z3
-                      Systems)
+                      My preferred programming languages are C/C++, C#, and
+                      Python. I am a kind of fast-learners. I learnt Erlang and
+                      Golang shortly and had hands-on experience with them as
+                      well.
                     </li>
                     <li>
-                      developed open-source hardware simulation{" "}
-                      <a href="https://github.com/Seneca-CDOT/simengine">
-                        platform
-                      </a>{" "}
-                      (Alteeve's Niche!)
+                      Deeply dedicated to mastering my craft, I always strive to
+                      build exceptional experiences with modern tools and
+                      technologies. When not writing code, I really enjoy
+                      learning new stuff, reading books and sketching random
+                      things.
                     </li>
                   </ul>
                 </div>
@@ -328,13 +337,14 @@ class Experience extends Component {
                     Software Stack
                   </h3>
                   <ul className="list">
-                    <li>NodeJS</li>
+                    <li>ASP.NET</li>
+                    <li>Django</li>
                     <li>ReactJS/Redux</li>
                     <li>Python3</li>
                     <li>Docker</li>
+                    <li>MSSQL</li>
                     <li>MongoDB</li>
                     <li>Neo4J</li>
-                    <li>Redis</li>
                   </ul>
                 </div>
               </div>

@@ -72,7 +72,8 @@ const Wrapper = styled.div`
   .progress-bar {
     position: relative;
     cursor: pointer;
-    padding: 0.5rem;
+    padding-left: 1.5rem;
+    padding-top: 0.2rem;
     color: #141416;
     margin-bottom: 1.1rem;
     background-image: linear-gradient(to right, #f17a3a, #e84545);
@@ -81,7 +82,7 @@ const Wrapper = styled.div`
     letter-spacing: 0.4rem;
   }
 
-  .progress-bar--90::before {
+  /* .progress-bar--90::before {
     color: #f17a3a;
     position: absolute;
     left: -2.5rem;
@@ -89,7 +90,7 @@ const Wrapper = styled.div`
     animation: max_90 2s forwards;
     transform: rotate(270deg);
     font-size: 0.9rem;
-  }
+  } */
 
   .progress-bar--80 {
     max-width: 80%;
@@ -98,7 +99,7 @@ const Wrapper = styled.div`
     animation: load 2s forwards;
   }
 
-  .progress-bar--80::before {
+  /* .progress-bar--80::before {
     color: #f17a3a;
     position: absolute;
     left: -2.5rem;
@@ -106,7 +107,7 @@ const Wrapper = styled.div`
     animation: max_80 2s forwards;
     transform: rotate(270deg);
     font-size: 0.9rem;
-  }
+  } */
 
   .progress-bar--70 {
     max-width: 70%;
@@ -115,7 +116,7 @@ const Wrapper = styled.div`
     animation: load 2s forwards;
   }
 
-  .progress-bar--70::before {
+  /* .progress-bar--70::before {
     color: #f17a3a;
     position: absolute;
     left: -2.5rem;
@@ -123,7 +124,7 @@ const Wrapper = styled.div`
     animation: max_70 2s forwards;
     transform: rotate(270deg);
     font-size: 0.9rem;
-  }
+  } */
 
   .progress-bar--60 {
     max-width: 60%;
@@ -131,7 +132,7 @@ const Wrapper = styled.div`
     opacity: 0;
     animation: load 2s forwards;
   }
-
+  /* 
   .progress-bar--60::before {
     color: #f17a3a;
     position: absolute;
@@ -140,7 +141,7 @@ const Wrapper = styled.div`
     animation: max_60 2s forwards;
     transform: rotate(270deg);
     font-size: 0.9rem;
-  }
+  } */
 
   .progress-bar--40 {
     max-width: 40%;
@@ -149,7 +150,7 @@ const Wrapper = styled.div`
     animation: load 2s forwards;
   }
 
-  .progress-bar--40::before {
+  /* .progress-bar--40::before {
     color: #f17a3a;
     position: absolute;
     left: -2.5rem;
@@ -157,7 +158,7 @@ const Wrapper = styled.div`
     animation: max_40 2s forwards;
     transform: rotate(270deg);
     font-size: 0.9rem;
-  }
+  } */
 `;
 
 class About extends Component {
@@ -179,16 +180,21 @@ class About extends Component {
                       <br />I am a full-stack developer based in Canton, OH,
                       USA.&nbsp;
                     </span>
-                    Deeply dedicated to mastering my craft, I always strive to
-                    build exceptional experiences with modern tools and
-                    technologies. When not writing code, I really enjoy learning
-                    new stuff, reading books and sketching random things.
+                    I am a person who is curious and meticulous with a desire to
+                    learn. I believe I can bring new perspectives and life
+                    experiences to the team. I want to work with big thinkers
+                    who want to take on fresh challenges as a team. I realized,
+                    I want to do more and started doing projects with end to end
+                    technologies. Solving problems for software gives me a sense
+                    of accomplishment and satisfaction.
                   </p>
                 </div>
                 <div>
                   <span>
                     <div class="text-box skill-details">
-                      <h3 class="heading-tertiary u-margin-bottom-small"></h3>
+                      <h3 class="heading-tertiary u-margin-bottom-small">
+                        C/C++, C#, Python
+                      </h3>
                       <p class="paragraph">
                         Desktop App, Multithreading, Web-Socket programming, BDD
                         (Behave) &amp; unittest
@@ -201,29 +207,36 @@ class About extends Component {
                 <h3 class="heading-tertiary u-margin-bottom-small">
                   Programming Languages
                 </h3>
-                <div class="progress-bar progress-bar--90">C#</div>
-                <div class="progress-bar progress-bar--90">C/C++</div>
-                <div class="progress-bar progress-bar--80">Javascript</div>
-                <div class="progress-bar progress-bar--60">PHP</div>
-                <div class="progress-bar progress-bar--40">GoLang</div>
-                <div class="progress-bar progress-bar--40">Erlang</div>
+                <div class="progress-bar progress-bar--90">C#, 90%</div>
+                <div class="progress-bar progress-bar--90">C/C++, 90%</div>
+                <div class="progress-bar progress-bar--90">Python, 90%</div>
+                <div class="progress-bar progress-bar--80">Javascript, 80%</div>
+                <div class="progress-bar progress-bar--40">GoLang, 40%</div>
+                <div class="progress-bar progress-bar--40">Erlang, 40%</div>
                 <h3 class="heading-tertiary u-margin-bottom-small">
                   Frameworks
                 </h3>
-                <div class="progress-bar progress-bar--90">ASP.NET MVC</div>
-                <div class="progress-bar progress-bar--80">ASP.NET Core</div>
-                <div class="progress-bar progress-bar--80">React.js</div>
-                <div class="progress-bar progress-bar--80">Angular</div>
-                <div class="progress-bar progress-bar--80">Vue.js</div>
-                <div class="progress-bar progress-bar--70">NodeJS</div>
+                <div class="progress-bar progress-bar--90">
+                  ASP.NET MVC, 90%
+                </div>
+                <div class="progress-bar progress-bar--80">
+                  ASP.NET Core, 80%
+                </div>
+                <div class="progress-bar progress-bar--80">Django, 80%</div>
+                <div class="progress-bar progress-bar--60">React.js, 60%</div>
+                <div class="progress-bar progress-bar--60">Angular, 60%</div>
+                <div class="progress-bar progress-bar--60">Vue.js, 60%</div>
+                <div class="progress-bar progress-bar--40">Elixir, 40%</div>
+                <div class="progress-bar progress-bar--40">Buffalo, 40%</div>
                 <h3 class="heading-tertiary u-margin-bottom-small">
                   Databases
                 </h3>
-                <div class="progress-bar progress-bar--90">MySQL</div>
-                <div class="progress-bar progress-bar--80">MSSQL</div>
-                <div class="progress-bar progress-bar--80">Neo4J/Cypher</div>
-                <div class="progress-bar progress-bar--80">PostgreSQL</div>
-                <div class="progress-bar progress-bar--80">Mongo</div>
+                <div class="progress-bar progress-bar--90">MSSQL, 90%</div>
+                <div class="progress-bar progress-bar--80">MySQL, 80%</div>
+                <div class="progress-bar progress-bar--80">
+                  Neo4J/Cypher, 80%
+                </div>
+                <div class="progress-bar progress-bar--80">Mongo, 80%</div>
               </div>
             </section>
           </div>

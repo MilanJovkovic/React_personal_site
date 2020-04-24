@@ -281,7 +281,7 @@ class Contact extends Component {
               </div>
               <div class="contact__social">
                 <a
-                  href="https://www.linkedin.com/in/olga-belavina/"
+                  href="https://www.linkedin.com/in/patric-kay/"
                   class="btn-group"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -294,7 +294,7 @@ class Contact extends Component {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/belavina"
+                  href="https://github.com/godstar88"
                   class="btn-group"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -307,7 +307,7 @@ class Contact extends Component {
                   </div>
                 </a>
                 <a
-                  href="https://www.goodreads.com/user/show/81175838-olga"
+                  href="https://gmail.com"
                   class="btn-group"
                   target="_blank"
                   rel="noopener noreferrer"
