@@ -51,7 +51,7 @@ class Header extends Component {
       <Wrapper>
         <div className="header header--centered">
           <h1 className="heading-primary">
-            <span className="heading-primary--main">Olga Belavina</span>
+            <span className="heading-primary--main">Patric Kay</span>
             <span className="heading-primary--sub">Software Developer</span>
           </h1>
           <NavBar />

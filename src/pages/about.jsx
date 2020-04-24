@@ -108,6 +108,23 @@ const Wrapper = styled.div`
     font-size: 0.9rem;
   }
 
+  .progress-bar--70 {
+    max-width: 70%;
+    width: 0;
+    opacity: 0;
+    animation: load 2s forwards;
+  }
+
+  .progress-bar--70::before {
+    color: #f17a3a;
+    position: absolute;
+    left: -2.5rem;
+    content: "70%";
+    animation: max_70 2s forwards;
+    transform: rotate(270deg);
+    font-size: 0.9rem;
+  }
+
   .progress-bar--60 {
     max-width: 60%;
     width: 0;
@@ -159,8 +176,8 @@ class About extends Component {
                   <p class="paragraph">
                     <span class="paragraph__block">
                       Hello there!
-                      <br />I am a full-stack developer based in Toronto,
-                      Canada.
+                      <br />I am a full-stack developer based in Canton, OH,
+                      USA.&nbsp;
                     </span>
                     Deeply dedicated to mastering my craft, I always strive to
                     build exceptional experiences with modern tools and
@@ -172,11 +189,11 @@ class About extends Component {
                   <span>
                     <div class="text-box skill-details">
                       <h3 class="heading-tertiary u-margin-bottom-small">
-                        Python
+                        C/C++, C#
                       </h3>
                       <p class="paragraph">
-                        Multithreading, Web-Socket programming, BDD (Behave)
-                        &amp; unittest
+                        Desktop App, Multithreading, Web-Socket programming, BDD
+                        (Behave) &amp; unittest
                       </p>
                     </div>
                   </span>
@@ -186,21 +203,28 @@ class About extends Component {
                 <h3 class="heading-tertiary u-margin-bottom-small">
                   Programming Languages
                 </h3>
-                <div class="progress-bar progress-bar--90">Python</div>
+                <div class="progress-bar progress-bar--90">C#</div>
+                <div class="progress-bar progress-bar--90">C/C++</div>
                 <div class="progress-bar progress-bar--80">Javascript</div>
                 <div class="progress-bar progress-bar--60">PHP</div>
-                <div class="progress-bar progress-bar--40">C++/C</div>
                 <div class="progress-bar progress-bar--40">GoLang</div>
+                <div class="progress-bar progress-bar--40">Erlang</div>
                 <h3 class="heading-tertiary u-margin-bottom-small">
                   Frameworks
                 </h3>
-                <div class="progress-bar progress-bar--90">ReactJS</div>
-                <div class="progress-bar progress-bar--80">NodeJS</div>
+                <div class="progress-bar progress-bar--90">ASP.NET MVC</div>
+                <div class="progress-bar progress-bar--80">ASP.NET Core</div>
+                <div class="progress-bar progress-bar--80">React.js</div>
+                <div class="progress-bar progress-bar--80">Angular</div>
+                <div class="progress-bar progress-bar--80">Vue.js</div>
+                <div class="progress-bar progress-bar--70">NodeJS</div>
                 <h3 class="heading-tertiary u-margin-bottom-small">
                   Databases
                 </h3>
                 <div class="progress-bar progress-bar--90">MySQL</div>
+                <div class="progress-bar progress-bar--80">MSSQL</div>
                 <div class="progress-bar progress-bar--80">Neo4J/Cypher</div>
+                <div class="progress-bar progress-bar--80">PostgreSQL</div>
                 <div class="progress-bar progress-bar--80">Mongo</div>
               </div>
             </section>
