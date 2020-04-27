@@ -237,9 +237,9 @@ class Experience extends Component {
   render() {
     return (
       <Wrapper>
-        <div class="experience_page">
+        <div className="experience_page">
           <Header />
-          <div tabindex="-1" role="group" style={{ outline: "none" }}>
+          <div tabIndex="-1" role="group" style={{ outline: "none" }}>
             <section className="experience">
               <div className="timeline">
                 <div className="timeline__breakpoint-group">
@@ -261,7 +261,7 @@ class Experience extends Component {
                     className="timeline__breakpoint timeline__breakpoint"
                     style={{ left: "58.635%", width: "36.365%" }}
                   >
-                    <h3 class="timeline__bp-header timeline__bp-header">
+                    <h3 className="timeline__bp-header timeline__bp-header">
                       <span className="timeline__bp-header--main">
                         Sr. Web Engineer
                       </span>
@@ -333,7 +333,7 @@ class Experience extends Component {
                   </ul>
                 </div>
                 <div className="text-box experience__stack">
-                  <h3 class="heading-tertiary u-margin-bottom-small">
+                  <h3 className="heading-tertiary u-margin-bottom-small">
                     Software Stack
                   </h3>
                   <ul className="list">

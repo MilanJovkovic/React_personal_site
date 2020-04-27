@@ -124,8 +124,8 @@ class NavButton extends Component {
   render() {
     return (
       <Wrapper>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href={this.props.children}>
+        <li className="main-nav__item">
+          <a className="main-nav__link" href={this.props.children}>
             {this.props.children}
           </a>
         </li>

@@ -165,17 +165,17 @@ class About extends Component {
   render() {
     return (
       <Wrapper>
-        <div class="about_page">
+        <div className="about_page">
           <Header />
-          <div tabindex="-1" role="group" style={{ outline: "none" }}>
-            <section class="about">
-              <div class="about__overview">
-                <div class="text-box dev-details u-fade-in-element">
-                  <h3 class="heading-tertiary u-margin-bottom-small">
+          <div tabIndex="-1" role="group" style={{ outline: "none" }}>
+            <section className="about">
+              <div className="about__overview">
+                <div className="text-box dev-details u-fade-in-element">
+                  <h3 className="heading-tertiary u-margin-bottom-small">
                     Profile
                   </h3>
-                  <p class="paragraph">
-                    <span class="paragraph__block">
+                  <p className="paragraph">
+                    <span className="paragraph__block">
                       Hello there!
                       <br />I am a full-stack developer based in Canton, OH,
                       USA.&nbsp;
@@ -191,11 +191,11 @@ class About extends Component {
                 </div>
                 <div>
                   <span>
-                    <div class="text-box skill-details">
-                      <h3 class="heading-tertiary u-margin-bottom-small">
+                    <div className="text-box skill-details">
+                      <h3 className="heading-tertiary u-margin-bottom-small">
                         C/C++, C#, Python
                       </h3>
-                      <p class="paragraph">
+                      <p className="paragraph">
                         Desktop App, Multithreading, Web-Socket programming, BDD
                         (Behave) &amp; unittest
                       </p>
@@ -203,40 +203,48 @@ class About extends Component {
                   </span>
                 </div>
               </div>
-              <div class="about__skills">
-                <h3 class="heading-tertiary u-margin-bottom-small">
+              <div className="about__skills">
+                <h3 className="heading-tertiary u-margin-bottom-small">
                   Programming Languages
                 </h3>
-                <div class="progress-bar progress-bar--90">C#, 90%</div>
-                <div class="progress-bar progress-bar--90">C/C++, 90%</div>
-                <div class="progress-bar progress-bar--90">Python, 90%</div>
-                <div class="progress-bar progress-bar--80">Javascript, 80%</div>
-                <div class="progress-bar progress-bar--40">GoLang, 40%</div>
-                <div class="progress-bar progress-bar--40">Erlang, 40%</div>
-                <h3 class="heading-tertiary u-margin-bottom-small">
+                <div className="progress-bar progress-bar--90">C#, 90%</div>
+                <div className="progress-bar progress-bar--90">C/C++, 90%</div>
+                <div className="progress-bar progress-bar--90">Python, 90%</div>
+                <div className="progress-bar progress-bar--80">
+                  Javascript, 80%
+                </div>
+                <div className="progress-bar progress-bar--40">GoLang, 40%</div>
+                <div className="progress-bar progress-bar--40">Erlang, 40%</div>
+                <h3 className="heading-tertiary u-margin-bottom-small">
                   Frameworks
                 </h3>
-                <div class="progress-bar progress-bar--90">
+                <div className="progress-bar progress-bar--90">
                   ASP.NET MVC, 90%
                 </div>
-                <div class="progress-bar progress-bar--80">
+                <div className="progress-bar progress-bar--80">
                   ASP.NET Core, 80%
                 </div>
-                <div class="progress-bar progress-bar--80">Django, 80%</div>
-                <div class="progress-bar progress-bar--60">React.js, 60%</div>
-                <div class="progress-bar progress-bar--60">Angular, 60%</div>
-                <div class="progress-bar progress-bar--60">Vue.js, 60%</div>
-                <div class="progress-bar progress-bar--40">Elixir, 40%</div>
-                <div class="progress-bar progress-bar--40">Buffalo, 40%</div>
-                <h3 class="heading-tertiary u-margin-bottom-small">
+                <div className="progress-bar progress-bar--80">Django, 80%</div>
+                <div className="progress-bar progress-bar--60">
+                  React.js, 60%
+                </div>
+                <div className="progress-bar progress-bar--60">
+                  Angular, 60%
+                </div>
+                <div className="progress-bar progress-bar--60">Vue.js, 60%</div>
+                <div className="progress-bar progress-bar--40">Elixir, 40%</div>
+                <div className="progress-bar progress-bar--40">
+                  Buffalo, 40%
+                </div>
+                <h3 className="heading-tertiary u-margin-bottom-small">
                   Databases
                 </h3>
-                <div class="progress-bar progress-bar--90">MSSQL, 90%</div>
-                <div class="progress-bar progress-bar--80">MySQL, 80%</div>
-                <div class="progress-bar progress-bar--80">
+                <div className="progress-bar progress-bar--90">MSSQL, 90%</div>
+                <div className="progress-bar progress-bar--80">MySQL, 80%</div>
+                <div className="progress-bar progress-bar--80">
                   Neo4J/Cypher, 80%
                 </div>
-                <div class="progress-bar progress-bar--80">Mongo, 80%</div>
+                <div className="progress-bar progress-bar--80">Mongo, 80%</div>
               </div>
             </section>
           </div>
