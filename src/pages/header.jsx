@@ -52,7 +52,7 @@ class Header extends Component {
         <div className="header header--centered">
           <h1 className="heading-primary">
             <span className="heading-primary--main">Patric Kay</span>
-            <span className="heading-primary--sub">Full-stack Developer</span>
+            <span className="heading-primary--sub">Full Stack Engineer</span>
           </h1>
           <NavBar />
         </div>

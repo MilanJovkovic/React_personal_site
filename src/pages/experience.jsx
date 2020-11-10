@@ -233,7 +233,7 @@ const Wrapper = styled.div`
   }
 `;
 
-class Experience extends Component {
+class experience extends Component {
   render() {
     return (
       <Wrapper>
@@ -249,10 +249,10 @@ class Experience extends Component {
                   >
                     <h3 className="timeline__bp-header timeline__bp-header">
                       <span className="timeline__bp-header--main">
-                        Sr. Software Engineer
+                        Senior Frontend Developer
                       </span>
                       <span className="timeline__bp-header--sub">
-                        Chepri / Full-time
+                        Chepri / Contract
                       </span>
                     </h3>
                   </div>
@@ -263,7 +263,7 @@ class Experience extends Component {
                   >
                     <h3 className="timeline__bp-header timeline__bp-header">
                       <span className="timeline__bp-header--main">
-                        Sr. Web Engineer
+                        Senior Software Engineer
                       </span>
                       <span className="timeline__bp-header--sub">
                         SmartSites / Contract
@@ -300,35 +300,33 @@ class Experience extends Component {
               <div className="experience__description u-fade-in-element">
                 <div className="text-box experience__role">
                   <h3 className="heading-tertiary u-margin-bottom-small">
-                    FULL-TIME FREELANCER
+                    Freelancer, Full Stack engineer
                     <span className="heading-tertiary--sub">
-                      Feb 2020 — Present
+                      Feb 2020 – Present, Full-time
                     </span>
                   </h3>
-                  <p className="paragraph">
+                  {/* <p className="paragraph">
                     Looking for a long-term and short-term job opportunites. I
                     prefer remote jobs because I left my previous job to change
                     my life. Based on the rich experience during 8 years, I will
                     deliver your promising desktop/web app and website.
-                  </p>
+                  </p> */}
                   <ul className="list">
                     <li>
-                      Received a Bachelor's degree in computer science. I have
-                      been working in IT area for about 8 years so far. My most
-                      familiar areas are Fintech and desktop app development.
+                      Designed the infrastructure and architecture of projects
                     </li>
                     <li>
-                      My preferred programming languages are C/C++, C#, and
-                      Python. I am a kind of fast-learners. I learnt Erlang and
-                      Golang shortly and had hands-on experience with them as
-                      well.
+                      Designed and implemented the machine learning algorithms
+                      to forecast forex and stock price in the short and long
+                      term
+                    </li>
+                    <li>Configured and deployed the multi-tier databases</li>
+                    <li>
+                      Developed the robust RESTful APIs with ASP.NET and Django
+                      frameworks
                     </li>
                     <li>
-                      Deeply dedicated to mastering my craft, I always strive to
-                      build exceptional experiences with modern tools and
-                      technologies. When not writing code, I really enjoy
-                      learning new stuff, reading books and sketching random
-                      things.
+                      Developed front-end components with React.js and Vue.js
                     </li>
                   </ul>
                 </div>
@@ -337,14 +335,16 @@ class Experience extends Component {
                     Software Stack
                   </h3>
                   <ul className="list">
+                    <li>C#</li>
                     <li>ASP.NET</li>
+                    <li>Python</li>
                     <li>Django</li>
                     <li>ReactJS/Redux</li>
-                    <li>Python3</li>
-                    <li>Docker</li>
+                    <li>Vue</li>
+                    <li>MySQL</li>
                     <li>MSSQL</li>
                     <li>MongoDB</li>
-                    <li>Neo4J</li>
+                    <li>PostgreSQL</li>
                   </ul>
                 </div>
               </div>
@@ -356,4 +356,4 @@ class Experience extends Component {
   }
 }
 
-export default Experience;
+export default experience;

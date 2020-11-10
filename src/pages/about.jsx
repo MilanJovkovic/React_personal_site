@@ -69,6 +69,13 @@ const Wrapper = styled.div`
     animation: load 2s forwards;
   }
 
+  .progress-bar--95 {
+    max-width: 95%;
+    width: 0;
+    opacity: 0;
+    animation: load 2s forwards;
+  }
+
   .progress-bar {
     position: relative;
     cursor: pointer;
@@ -108,6 +115,13 @@ const Wrapper = styled.div`
     transform: rotate(270deg);
     font-size: 0.9rem;
   } */
+
+  .progress-bar--75 {
+    max-width: 75%;
+    width: 0;
+    opacity: 0;
+    animation: load 2s forwards;
+  }
 
   .progress-bar--70 {
     max-width: 70%;
@@ -161,7 +175,7 @@ const Wrapper = styled.div`
   } */
 `;
 
-class About extends Component {
+class about extends Component {
   render() {
     return (
       <Wrapper>
@@ -175,29 +189,26 @@ class About extends Component {
                     Profile
                   </h3>
                   <p className="paragraph">
-                    <span className="paragraph__block">
-                      Hello there!
-                      <br />I am a full-stack developer based in Canton, OH,
-                      USA.&nbsp;
-                    </span>
-                    I am a person who is curious and meticulous with a desire to
+                    In one word, I am curious and meticulous with a desire to
                     learn. I believe I can bring new perspectives and life
                     experiences to the team. I want to work with big thinkers
-                    who want to take on fresh challenges as a team. I realized,
-                    I want to do more and started doing projects with end to end
-                    technologies. Solving problems for software gives me a sense
-                    of accomplishment and satisfaction.
+                    who want to take on fresh challenges as a team. I have over
+                    7 years of experience in web and desktop software design and
+                    development. My best dev stacks are C#, ASP.NET, Javascript,
+                    React.js, Vue.js, Python, Django.
                   </p>
                 </div>
                 <div>
                   <span>
                     <div className="text-box skill-details">
                       <h3 className="heading-tertiary u-margin-bottom-small">
-                        C/C++, C#, Python
+                        C#, ASP.NET, Python, Django, React.js, Vue.js
                       </h3>
                       <p className="paragraph">
-                        Desktop App, Multithreading, Web-Socket programming, BDD
-                        (Behave) &amp; unittest
+                        DOM, MVC, SOAP, REST API, GraphQL, Client/Server-side
+                        rendering, Micro-service architecture, Automation test,
+                        TDD, Serverless, SQL-database, NoSQL-database,
+                        Scrum/Agile Methodology
                       </p>
                     </div>
                   </span>
@@ -207,42 +218,33 @@ class About extends Component {
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Programming Languages
                 </h3>
-                <div className="progress-bar progress-bar--90">C#, 90%</div>
+                <div className="progress-bar progress-bar--95">C#, 95%</div>
                 <div className="progress-bar progress-bar--90">C/C++, 90%</div>
                 <div className="progress-bar progress-bar--90">Python, 90%</div>
                 <div className="progress-bar progress-bar--80">
                   Javascript, 80%
                 </div>
-                <div className="progress-bar progress-bar--40">GoLang, 40%</div>
-                <div className="progress-bar progress-bar--40">Erlang, 40%</div>
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Frameworks
                 </h3>
                 <div className="progress-bar progress-bar--90">
                   ASP.NET MVC, 90%
                 </div>
-                <div className="progress-bar progress-bar--80">
-                  ASP.NET Core, 80%
+                <div className="progress-bar progress-bar--90">
+                  ASP.NET Core, 90%
                 </div>
                 <div className="progress-bar progress-bar--80">Django, 80%</div>
-                <div className="progress-bar progress-bar--60">
-                  React.js, 60%
+                <div className="progress-bar progress-bar--80">
+                  React.js, 80%
                 </div>
-                <div className="progress-bar progress-bar--60">
-                  Angular, 60%
-                </div>
-                <div className="progress-bar progress-bar--60">Vue.js, 60%</div>
-                <div className="progress-bar progress-bar--40">Elixir, 40%</div>
-                <div className="progress-bar progress-bar--40">
-                  Buffalo, 40%
-                </div>
+                <div className="progress-bar progress-bar--75">Vue.js, 75%</div>
                 <h3 className="heading-tertiary u-margin-bottom-small">
                   Databases
                 </h3>
+                <div className="progress-bar progress-bar--95">MySQL, 95%</div>
                 <div className="progress-bar progress-bar--90">MSSQL, 90%</div>
-                <div className="progress-bar progress-bar--80">MySQL, 80%</div>
                 <div className="progress-bar progress-bar--80">
-                  Neo4J/Cypher, 80%
+                  PostgreSQL, 80%
                 </div>
                 <div className="progress-bar progress-bar--80">Mongo, 80%</div>
               </div>
@@ -254,4 +256,4 @@ class About extends Component {
   }
 }
 
-export default About;
+export default about;

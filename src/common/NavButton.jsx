@@ -125,7 +125,10 @@ class NavButton extends Component {
     return (
       <Wrapper>
         <li className="main-nav__item">
-          <a className="main-nav__link" href={this.props.children}>
+          <a
+            className="main-nav__link"
+            href={this.props.children.toLowerCase()}
+          >
             {this.props.children}
           </a>
         </li>

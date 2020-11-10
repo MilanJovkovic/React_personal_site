@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "./pages/home";
-import About from "./pages/about";
-import Experience from "./pages/experience";
-import Contact from "./pages/contact";
+import home from "./pages/home";
+import about from "./pages/about";
+import experience from "./pages/experience";
+import contact from "./pages/contact";
 import "./App.css";
 
 export default function App() {
@@ -11,10 +11,10 @@ export default function App() {
     <div className="App">
       <Router forceRefresh={false}>
         <Switch>
-          <Route push exact path="/" component={Home} />
-          <Route push exact path="/about" component={About} />
-          <Route push exact path="/experience" component={Experience} />
-          <Route push exact path="/contact" component={Contact} />
+          <Route push exact path="/" component={home} />
+          <Route push exact path="/about" component={about} />
+          <Route push exact path="/experience" component={experience} />
+          <Route push exact path="/contact" component={contact} />
         </Switch>
       </Router>
     </div>

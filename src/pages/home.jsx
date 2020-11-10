@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   }
 `;
 
-class Home extends Component {
+class home extends Component {
   render() {
     return (
       <Wrapper>
@@ -21,4 +21,4 @@ class Home extends Component {
   }
 }
 
-export default Home;
+export default home;
